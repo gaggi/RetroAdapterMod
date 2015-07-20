@@ -1,7 +1,7 @@
 # RetroAdapterMod
 Mod of Paul Qureshi's Mojo RetroAdapter Firmware
 
-Paul Qureshi RetroAdapter Firmware v2.1a Arcade-Mod v0.1
+Paul Qureshi RetroAdapter Firmware v2.1a Mod v1.0
 --------------------------------------------------
 
 References
@@ -17,7 +17,7 @@ http://www.brunofreitas.com/node/41
 http://denki.world3.net/retro_v2.html
 (incuded for reference in folder original_Files)
 
-- Forked from rsn8887
+- Modified Source from rsn8887
 
 What is it?
 -----------
