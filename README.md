@@ -17,12 +17,25 @@ http://www.brunofreitas.com/node/41
 http://denki.world3.net/retro_v2.html
 (incuded for reference in folder original_Files)
 
-- Modified Source from rsn8887
+- This mod by rsn8887
 
 What is it?
 -----------
 
-- Included is only the arcade version of the firmware for the Mojo Retroadapter as it is intended to be used with an alternative PCB which is designed for use in Arcade cabinets or Arcade sticks.
+- Included are three modified versions of the original Mojo Retroadapter firmware, as hex and source files: "Xbox mode, arcade mode, and normal mode"
+
+- All three versions include the addition of NegCon controller support, amongst other enhancements.
+
+- Xbox mode:
+I modified and recompiled the Retroadapter firmware, replacing the original PC support with Xbox classic support. 
+
+ - A RetroAdapter updated with this modded Firmware only works on Xbox Classic (note: Update mode still works so you can always go back after modding)
+ - I used the Xbox communication and initialization code from Bruno Freitas' Retropad Adapter and merged it into the codebase from Paul Qureshi
+ - See http://www.brunofreitas.com/node/41 for more information on Bruno Freitas' Adapter
+ - I also updated the makefile and changed some of the button mappings to better reflect operation on Xbox
+ - SNES mouse and dual player support was removed to comply with the limitations of the XBox classic
+ - If you want to use a mouse, just hook up an original Qureshi RetroAdapter to your Xbox, because Xbox already supports standard usb mice
+ - If you want 2-4 player support, just hook up multiple retroadapters to the xbox, one player per port
 
 - Arcade mode: 
 This version is suited for use in an Arcade cabinet. It works on PCs just like the original RetroAdapter, but I replaced Neogeo stick support on the DB15 with an arcade mode that has just 8 firebuttons on the DB15, to give you a total of 10 buttons and 4 directions when you hook up to DB9 and DB15 both.
